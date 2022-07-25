@@ -1,9 +1,9 @@
 package Services;
 
-public class PayPalService implements OnlinePaymentService {
+public class MercadoPagoService implements OnlinePaymentService {
 
-	public static final double PAYMENT_FEE = 0.02;
-	public static final double MONTHLY_INTEREST = 0.01;
+	public static final double PAYMENT_FEE = 0.01;
+	public static final double MONTHLY_INTEREST = 0.02;
 
 	@Override
 	public double paymentfee(double amount) {
